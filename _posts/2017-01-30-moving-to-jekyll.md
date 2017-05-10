@@ -2,7 +2,7 @@
 layout: post
 title: Moving To Jekyll 
 categories:
-- blog
+- blog, tech
 ---
 
 > New year new resolution. Or for me, new blog.
@@ -34,11 +34,11 @@ It become somewhat like this (I'm using OS X):
 + Try to update ruby, using gem --update system. Not working.
 + Spent time Googling stack overflow to look for answers.
 
-Googling "How to update Ruby OS X" brings me to this [Stack Overflow page](http://stackoverflow.com/questions/38194032/how-to-update-ruby-version-2-0-0-to-the-latest-version-in-mac-osx-yosemite). There are several solutions, but what I've found really works for me is using Rubyenv, a environment manager for Ruby like virtualenv is for Python.
+Googling "How to update Ruby OS X" brings me to this [Stack Overflow page][1]. There are several solutions, but what I've found really works for me is using Rubyenv, a environment manager for Ruby like virtualenv is for Python.
 
 And off we go :
 
-+ first install [Homebrew](http://brew.sh) (a super excellent package manager for OS X)
++ first install [Homebrew][2] (a super excellent package manager for OS X)
 + install required packages
 
 ```bash
@@ -80,3 +80,6 @@ bundle exec Jekyll serve
 ```
 
 Done ! Jekyll has been set up and playing nice with Ruby. Now you can just write and push to Github :)
+
+[1]:	http://stackoverflow.com/questions/38194032/how-to-update-ruby-version-2-0-0-to-the-latest-version-in-mac-osx-yosemite
+[2]:	http://brew.sh
